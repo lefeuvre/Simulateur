@@ -1,4 +1,5 @@
 #include "proc.h"
+#include "gen.h"
 
 int main()
 {
