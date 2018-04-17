@@ -1,6 +1,6 @@
 #include "gen.h"
 
-Gen::Gen()
+Gen::Gen() : Atomic_comp()
 {
 }
 

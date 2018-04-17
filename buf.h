@@ -1,5 +1,5 @@
-#ifndef	GEN 
-#define GEN
+#ifndef	BUF 
+#define BUF
  
 #include <iostream>
 #include <string>
@@ -8,11 +8,11 @@
 
 using namespace std;
  
-class Gen : public Atomic_comp
+class Buf : public Atomic_comp
 {
 	public:
 
-		Gen();
+		Buf();
 		void init();
 		void delta_int();
 		void delta_ext(string input);
@@ -20,6 +20,10 @@ class Gen : public Atomic_comp
 		string lambda();
 
 		int current_state, next_state; 
+
+	private:
+
+		int v;
 };
  
 #endif
