@@ -4,9 +4,11 @@
 #include <iostream>
 #include <string>
 
+#include "atomic_comp.h"
+
 using namespace std;
  
-class  Proc
+class Proc : public Atomic_comp
 {
 	public:
 

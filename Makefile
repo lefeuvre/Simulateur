@@ -3,7 +3,7 @@ CFLAGS = -Wall
 EXEC_NAME = test
 INCLUDES =
 LIBS =
-OBJ_FILES = proc.o main.o
+OBJ_FILES = gen.o proc.o main.o
 INSTALL_DIR = /usr/bin
 
 all : $(EXEC_NAME)
